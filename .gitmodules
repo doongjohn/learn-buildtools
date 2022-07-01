@@ -1,0 +1,3 @@
+[submodule "src/lib/linenoise"]
+	path = src/lib/linenoise
+	url = https://github.com/msteveb/linenoise
