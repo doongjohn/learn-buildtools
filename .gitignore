@@ -1,0 +1,11 @@
+.ccls-cache/
+
+.objs/
+.deps/
+bin/
+
+.xmake/
+build/
+
+zig-cache/
+zig-out/

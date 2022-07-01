@@ -1,0 +1,6 @@
+[
+  { "directory":"/home/doongjohn/projects/exp/c", "file":"src/main.c", "command":"gcc -Wall -fsanitize=undefined -Isrc -Isrc/lib/linenoise -c -o .objs/src/main.o src/main.c", "output":".objs/src/main.o" },
+  { "directory":"/home/doongjohn/projects/exp/c", "file":"src/lib/linenoise/utf8.c", "command":"gcc -Wall -fsanitize=undefined -DUSE_UTF8 -c -o .objs/src/lib/linenoise/utf8.o src/lib/linenoise/utf8.c", "output":".objs/src/lib/linenoise/utf8.o" },
+  { "directory":"/home/doongjohn/projects/exp/c", "file":"src/lib/linenoise/stringbuf.c", "command":"gcc -Wall -fsanitize=undefined -DUSE_UTF8 -c -o .objs/src/lib/linenoise/stringbuf.o src/lib/linenoise/stringbuf.c", "output":".objs/src/lib/linenoise/stringbuf.o" },
+  { "directory":"/home/doongjohn/projects/exp/c", "file":"src/lib/linenoise/linenoise.c", "command":"gcc -Wall -fsanitize=undefined -DUSE_UTF8 -c -o .objs/src/lib/linenoise/linenoise.o src/lib/linenoise/linenoise.c", "output":".objs/src/lib/linenoise/linenoise.o" }
+]
