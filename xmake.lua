@@ -21,7 +21,6 @@ end
 set_languages("c17")
 
 target("app")
-do
   set_default(true) --> this is a default target
   set_kind("binary")
   add_deps("linenoise")
@@ -35,11 +34,9 @@ do
   add_files(
     "src/**.c|lib/**"
   )
-end
 target_end()
 
 target("linenoise")
-do
   set_default(false)
   set_kind("object")
   add_defines(
@@ -50,5 +47,4 @@ do
     "src/lib/linenoise/stringbuf.c",
     "src/lib/linenoise/linenoise.c"
   )
-end
 target_end()
