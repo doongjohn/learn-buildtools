@@ -32,7 +32,7 @@ target("app")
     "src/lib/linenoise"
   )
   add_files(
-    "src/**.c|lib/**"
+    "src/**.c|lib/**" -- exclude src/lib/**
   )
 target_end()
 
